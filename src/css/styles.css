@@ -76,10 +76,57 @@ dialog{
 }
 
 .input-group input{
-    border: 1px solid #d1d5db
-
-
+    border: 1px solid #d1d5db;
+    background: color #f9fafb;
+    border-radius: 8px;
+    padding: 10px 18px;
 }
+
+.input-group input:focus{
+    outline: 1px solid #6366f1;
+}
+
+.password-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-password{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #111928;
+}
+
+.forgot-password{
+    font-size: 12px;
+    color: #1c64f2;
+    text-decoration: none;
+}
+
+#login_button {
+    background-color: #6366f1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.register span{
+    font-size: 14px;
+    color: #6b7288;
+}
+
+.register a{
+    font-size: 14px;
+    color: #1c64f2;
+    text-decoration: none;
+}
+
 
 
     
